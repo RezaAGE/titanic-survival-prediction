@@ -1,0 +1,28 @@
+{
+  "provenance": "Saved outputs in user-provided Titanic.ipynb, cross-checked with provided CSVs",
+  "evaluation": "stratified 25% validation split (random_state=42) after initial feature engineering and grouped imputation",
+  "train_rows": 891,
+  "test_rows": 418,
+  "fit_rows": 668,
+  "validation_rows": 223,
+  "confusion_matrix": [
+    [
+      116,
+      21
+    ],
+    [
+      18,
+      68
+    ]
+  ],
+  "validation_accuracy": 0.8251121076233184,
+  "positive_precision": 0.7640449438202247,
+  "positive_recall": 0.7906976744186046,
+  "positive_f1": 0.7771428571428571,
+  "validation_errors": 39,
+  "cross_validation_best_weighted_f1": 0.8218763593070856,
+  "grid_search_candidates": 132,
+  "grid_search_fits": 660,
+  "kaggle_leaderboard_score": null,
+  "note": "No retraining was performed to create this package."
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 290" role="img" aria-labelledby="title desc">
+<title id="title">Data science model pipeline</title><desc id="desc">CSV files lead to engineered features, grouped missing-value treatment, train validation split, transformations, model selection, validation and submission.</desc>
+<rect x="0" y="0" width="1400" height="290" rx="20" fill="#F3F8FB"/>
+<g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+<g><rect x="30" y="85" width="192" height="115" rx="13" fill="#132F4A"/><text x="126" y="125" font-size="18" fill="#FFFFFF" font-weight="bold">Source CSVs</text><text x="126" y="155" font-size="14" fill="#C8DEEA">891 train · 418 test</text></g>
+<g><rect x="253" y="85" width="192" height="115" rx="13" fill="#FFFFFF" stroke="#D4E4ED" stroke-width="2"/><text x="349" y="125" font-size="18" fill="#163D52" font-weight="bold">Feature design</text><text x="349" y="155" font-size="14" fill="#5C7885">Title · Ticket · Cabin</text></g>
+<g><rect x="476" y="85" width="192" height="115" rx="13" fill="#FFFFFF" stroke="#D4E4ED" stroke-width="2"/><text x="572" y="125" font-size="18" fill="#163D52" font-weight="bold">Group impute</text><text x="572" y="155" font-size="14" fill="#5C7885">Age · Port · FareLog</text></g>
+<g><rect x="699" y="85" width="192" height="115" rx="13" fill="#FFFFFF" stroke="#D4E4ED" stroke-width="2"/><text x="795" y="125" font-size="18" fill="#163D52" font-weight="bold">Preprocess</text><text x="795" y="155" font-size="14" fill="#5C7885">Encode · Scale</text></g>
+<g><rect x="922" y="85" width="192" height="115" rx="13" fill="#FFFFFF" stroke="#D4E4ED" stroke-width="2"/><text x="1018" y="125" font-size="17" fill="#163D52" font-weight="bold">Tune classifier</text><text x="1018" y="155" font-size="14" fill="#5C7885">GridSearchCV · L1</text></g>
+<g><rect x="1145" y="85" width="224" height="115" rx="13" fill="#007F86"/><text x="1257" y="125" font-size="18" fill="#FFFFFF" font-weight="bold">Evaluate &amp; infer</text><text x="1257" y="155" font-size="14" fill="#D9FCF9">82.51% val accuracy</text></g>
+</g>
+<g stroke="#48A8AB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M228 142h20m-7 -6l7 6 -7 6M451 142h20m-7 -6l7 6 -7 6M674 142h20m-7 -6l7 6 -7 6M897 142h20m-7 -6l7 6 -7 6M1120 142h20m-7 -6l7 6 -7 6"/></g>
+<text x="38" y="52" fill="#123C50" font-size="24" font-family="Arial, Helvetica, sans-serif" font-weight="bold">A reproducible workflow — with recorded methodological caveats</text>
+<text x="38" y="255" fill="#6F8492" font-size="15" font-family="Arial, Helvetica, sans-serif">Note: grouped imputation occurs before the notebook's holdout split; see Engineering Notes for implications.</text>
+</svg>

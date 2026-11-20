@@ -1,0 +1,37 @@
+name: Repository quality
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  static-quality:
+    name: Static checks (${{ matrix.os }} / Python ${{ matrix.python-version }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python-version: ['3.12', '3.14']
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Validate notebook source, data and recorded submission
+        run: python scripts/validate_project.py
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      # Intentionally do not run the notebook: its original Python source
+      # uses Windows-specific paths and launches a 660-fit grid search.

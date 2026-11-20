@@ -1,0 +1,15 @@
+# Notebook runtime dependencies (direct imports and interactive notebook environment).
+# The source archive does not include an exact, tested environment lockfile.
+# Versions below are broad compatibility preferences, not a tested reproducibility guarantee.
+numpy>=2.0
+pandas>=2.2
+matplotlib>=3.8
+seaborn>=0.13
+scikit-learn>=1.6
+category-encoders>=2.6
+lazypredict>=0.2.16
+jupyterlab>=4.0
+ipykernel>=6.0
+# Optional model families may be discovered through LazyPredict depending on its version.
+# The saved screen includes LGBMClassifier, so keep LightGBM available for similar screening.
+lightgbm>=4.0

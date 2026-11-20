@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 340" role="img" aria-labelledby="title desc">
+<title id="title">Titanic Survival Prediction: Machine Learning Case Study</title>
+<desc id="desc">A dark-blue cover with a stylized ship, waves and explanatory subtitle.</desc>
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#112944"/><stop offset="1" stop-color="#072033"/></linearGradient><linearGradient id="wave" x1="0" x2="1"><stop offset="0" stop-color="#00A79F" stop-opacity=".9"/><stop offset="1" stop-color="#47BCD2" stop-opacity=".55"/></linearGradient></defs>
+<rect width="1400" height="340" fill="url(#bg)" rx="24"/>
+<g opacity=".14" stroke="#72C6D3" stroke-width="1"><path d="M0 70H1400M0 140H1400M0 210H1400M0 280H1400M200 0V340M400 0V340M600 0V340M800 0V340M1000 0V340M1200 0V340"/></g>
+<circle cx="1160" cy="139" r="91" fill="#00A79F" fill-opacity=".10"/><circle cx="1160" cy="139" r="122" fill="none" stroke="#42B4C5" stroke-opacity=".2" stroke-width="2"/>
+<g transform="translate(885 45)"><path d="M40 184h420l-52 52H110Z" fill="#E5F1F8"/><path d="M120 172h270v18H120z" fill="#80C9D2"/><path d="M164 100h197v70H164z" fill="#DBEBF2"/><path d="M196 67h136v34H196z" fill="#DBEBF2"/><path d="M220 25h20v44h-20zM274 18h20v51h-20z" fill="#E7AA59"/><path d="M164 100h197M164 132h197" stroke="#1B4761" stroke-width="8"/><g fill="#16425A"><circle cx="203" cy="151" r="7"/><circle cx="249" cy="151" r="7"/><circle cx="298" cy="151" r="7"/></g><path d="M11 251q41-18 85 0t85 0t85 0t85 0t85 0" fill="none" stroke="url(#wave)" stroke-width="10" stroke-linecap="round"/></g>
+<g font-family="Arial, Helvetica, sans-serif"><text x="76" y="94" font-size="17" font-weight="700" fill="#7BE1D7" letter-spacing="4">DATA SCIENCE  /  PORTFOLIO PROJECT</text><text x="74" y="170" font-size="53" font-weight="800" fill="#FFFFFF">TITANIC SURVIVAL</text><text x="74" y="225" font-size="53" font-weight="800" fill="#FFFFFF">PREDICTION</text><text x="77" y="271" font-size="20" fill="#B5D1DB">Feature engineering  ·  Classification  ·  Model evaluation</text></g>
+<path d="M75 298h590" stroke="#2A6975" stroke-width="2"/><g fill="#68D1C9"><circle cx="82" cy="298" r="5"/><circle cx="375" cy="298" r="5"/><circle cx="665" cy="298" r="5"/></g>
+</svg>

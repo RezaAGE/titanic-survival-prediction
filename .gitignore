@@ -1,0 +1,42 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter local state
+.ipynb_checkpoints/
+.jupyter/
+
+# Model runtimes, temporary files and large generated intermediates
+catboost_info/
+**/catboost_info/
+*.log
+*.tmp
+*.temp
+*.pickle
+*.pkl
+*.joblib
+
+# Running the original notebook writes a new CSV here.
+# The curated example is versioned in outputs/submission.csv instead.
+Notebooks/submission.csv
+
+# Editor / OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build artifacts
+build/
+dist/
+*.egg-info/

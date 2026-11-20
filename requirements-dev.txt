@@ -1,0 +1,3 @@
+# Static repository validation requires only Python's standard library.
+# To work on the original notebook, install requirements.txt instead.
+-r requirements.txt
